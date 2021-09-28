@@ -1,0 +1,439 @@
+{
+  "current": {
+    "color_header_bg": "#030303",
+    "color_header_links": "#fff",
+    "color_body_bg": "#f7f7f7",
+    "color_content_bg": "#fff",
+    "color_body_headings": "#030303",
+    "color_body_text": "#666",
+    "color_button_bg": "#de722d",
+    "color_button_text": "#fff",
+    "color_footer_bg": "#030303",
+    "color_footer_text": "#fff",
+    "color_hero_text": "#fff",
+    "color_hero_bg": "#72aaf3",
+    "type_accent_family": "unica_one_n4",
+    "type_accent_spacing": true,
+    "type_accent_transform": true,
+    "type_base_family": "karla_n4",
+    "type_base_size": "16px",
+    "type_nav_size": "14px",
+    "type_nav_spacing": true,
+    "type_nav_transform": true,
+    "product_images_padding": false,
+    "product_vendor_enable": false,
+    "share_image": "shopify:\/\/shop_images\/LOGO_black_white_copy.png",
+    "social_facebook_link": "facebook.com\/beardenproject",
+    "social_twitter_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "share_facebook": true,
+    "share_twitter": false,
+    "share_pinterest": false,
+    "favicon": "shopify:\/\/shop_images\/beard-v2B.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#006eff",
+    "checkout_button_color": "#006eff",
+    "checkout_error_color": "#e32c2b",
+    "checkout_banner_background_color": "#fff",
+    "checkout_call_to_action_color": "#f4743c",
+    "checkout_use_header_image": false,
+    "color_newsletter_input": "#425154",
+    "sections": {
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "1571371713916": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/we-make-scents_0236e1a6-478f-4b03-9142-6404cfcc83c9.png",
+              "image_position": "center center",
+              "title": "See and Smell",
+              "button_label": "View All",
+              "button_link": "shopify:\/\/collections\/soy-candle"
+            }
+          },
+          "placeholder-1": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/MAGNET-compile.png",
+              "image_position": "center center",
+              "title": "Magnetic Moments",
+              "button_label": "For laughs, for tears, for growth",
+              "button_link": "shopify:\/\/collections\/magnet"
+            }
+          },
+          "placeholder-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/southerncharm-banner_e43118fa-e2c6-4c42-8ea2-f01ed35d1a71.jpg",
+              "image_position": "center center",
+              "title": "Southern Charm",
+              "button_label": "What Will You Find Inside?",
+              "button_link": "shopify:\/\/collections\/southern-charm"
+            }
+          },
+          "1571370622495": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/blink-banner.png",
+              "image_position": "center center",
+              "title": "Coming Soon",
+              "button_label": "A moment.  A lifetime.  A story.",
+              "button_link": "shopify:\/\/pages\/about"
+            }
+          }
+        },
+        "block_order": [
+          "1571371713916",
+          "placeholder-1",
+          "placeholder-0",
+          "1571370622495"
+        ],
+        "settings": {
+          "hero_home_height": "adapt",
+          "hero_home_auto": true,
+          "hero_home_auto_speed": 3
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "linklist": {
+            "type": "menu",
+            "settings": {
+              "link_list": "footer"
+            }
+          },
+          "1571363890267": {
+            "type": "text",
+            "settings": {
+              "title": "Started out of love...",
+              "text": "<p>We continue with laughter, or else we might cry.<\/p>"
+            }
+          },
+          "social": {
+            "type": "social",
+            "settings": {
+              "title": "Follow us",
+              "align": "center"
+            }
+          }
+        },
+        "block_order": [
+          "linklist",
+          "1571363890267",
+          "social"
+        ],
+        "settings": {
+          "show_payment_icons": true
+        }
+      },
+      "featured-collections": {
+        "type": "featured-collections",
+        "blocks": {
+          "featured-collections-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "soy-candle"
+            }
+          },
+          "featured-collections-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "clothing"
+            }
+          },
+          "featured-collections-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "religiosity"
+            }
+          }
+        },
+        "block_order": [
+          "featured-collections-2",
+          "featured-collections-0",
+          "featured-collections-1"
+        ],
+        "settings": {
+          "stretch_collection_image": false
+        }
+      },
+      "featured-products": {
+        "type": "featured-products",
+        "settings": {
+          "collection": "holiday",
+          "rows": 2
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/BEARDENPROJECT2.png",
+          "logo_max_width": "350",
+          "main_linklist": "main-menu",
+          "promo_bar_enable": true,
+          "promo_bar_text": "Please note:  Orders may see a slight delay during July-August due to medical leave.  All orders will still ship.  Thanks for your understanding and patience",
+          "promo_bar_link": ""
+        }
+      },
+      "collection-filters": {
+        "type": "collection-filters",
+        "settings": {
+          "product_tags_enable": true,
+          "product_sorting_enable": true
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "enable_ajax": true,
+          "stock_enable": false,
+          "enable_payment_button": true,
+          "social_sharing_products": true
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like"
+        }
+      },
+      "1571365391251": {
+        "type": "image-content",
+        "blocks": {
+          "1571365391251-0": {
+            "type": "image_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/BLINK-Logo-MixedLeaves_copy.jpg"
+            }
+          },
+          "1571365391251-1": {
+            "type": "text_block",
+            "settings": {
+              "title": "Coming Soon",
+              "text": "<p>\"Life Under Glass\"&nbsp; Exhibits wonderous worlds that may or may not exist.<\/p>",
+              "align": "left"
+            }
+          }
+        },
+        "block_order": [
+          "1571365391251-0",
+          "1571365391251-1"
+        ],
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+      "featured-collections",
+      "featured-products",
+      "1571365391251"
+    ]
+  },
+  "presets": {
+    "Snowboards": {
+      "checkout_accent_color": "#006eff",
+      "checkout_banner_background_color": "#fff",
+      "checkout_button_color": "#006eff",
+      "checkout_call_to_action_color": "#006eff",
+      "checkout_use_header_image": false,
+      "color_body_bg": "#f7f7f7",
+      "color_body_headings": "#030303",
+      "color_body_text": "#666",
+      "color_button_bg": "#006eff",
+      "color_button_text": "#fff",
+      "color_content_bg": "#fff",
+      "color_footer_bg": "#030303",
+      "color_footer_text": "#fff",
+      "color_header_bg": "#030303",
+      "color_header_links": "#fff",
+      "color_hero_bg": "#006eff",
+      "color_hero_text": "#fff",
+      "color_newsletter_input": "#1a1a1a",
+      "type_accent_family": "unica_one_n4",
+      "type_accent_spacing": true,
+      "type_accent_transform": true,
+      "type_base_family": "karla_n4",
+      "type_base_size": "16px",
+      "type_nav_size": "14px",
+      "type_nav_spacing": true,
+      "type_nav_transform": true,
+      "sections": {
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "placeholder-0": {
+              "type": "slide",
+              "settings": {
+              }
+            },
+            "placeholder-1": {
+              "type": "slide",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "placeholder-0",
+            "placeholder-1"
+          ],
+          "settings": {
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "linklist": {
+              "type": "menu",
+              "settings": {
+              }
+            },
+            "social": {
+              "type": "social",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "linklist",
+            "social"
+          ],
+          "settings": {
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collections-0": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "featured-collections-1": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "featured-collections-2": {
+              "type": "collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "featured-collections-0",
+            "featured-collections-1",
+            "featured-collections-2"
+          ],
+          "settings": {
+          }
+        },
+        "featured-products": {
+          "type": "featured-products",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "image-content": {
+          "type": "image-content",
+          "blocks": {
+            "image-content-0": {
+              "type": "image_block",
+              "settings": {
+              }
+            },
+            "image-content-1": {
+              "type": "text_block",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "image-content-0",
+            "image-content-1"
+          ],
+          "settings": {
+          }
+        }
+      },
+      "content_for_index": [
+        "featured-collections",
+        "featured-products",
+        "image-content"
+      ]
+    },
+    "Outdoors": {
+      "checkout_accent_color": "#f4743c",
+      "checkout_banner_background_color": "#fff",
+      "checkout_button_color": "#f4743c",
+      "checkout_call_to_action_color": "#f4743c",
+      "checkout_use_header_image": false,
+      "color_body_bg": "#f7f7f7",
+      "color_body_headings": "#1a1a1a",
+      "color_body_text": "#666",
+      "color_button_bg": "#c04f1d",
+      "color_button_text": "#fff",
+      "color_content_bg": "#ffffff",
+      "color_footer_bg": "#213236",
+      "color_footer_text": "#fff",
+      "color_header_bg": "#213236",
+      "color_header_links": "#ffffff",
+      "color_hero_bg": "#f4743c",
+      "color_hero_text": "#fff",
+      "color_newsletter_input": "#425154",
+      "type_accent_family": "lora_n7",
+      "type_accent_spacing": false,
+      "type_accent_transform": false,
+      "type_base_family": "roboto_n4",
+      "type_base_size": "14px",
+      "type_nav_size": "15px",
+      "type_nav_spacing": false,
+      "type_nav_transform": false
+    },
+    "Boxing": {
+      "checkout_accent_color": "#d8232f",
+      "checkout_banner_background_color": "#fff",
+      "checkout_button_color": "#d8232f",
+      "checkout_call_to_action_color": "#d8232f",
+      "checkout_use_header_image": false,
+      "color_body_bg": "#f0f0f0",
+      "color_body_headings": "#222222",
+      "color_body_text": "#666",
+      "color_button_bg": "#d8232f",
+      "color_button_text": "#fff",
+      "color_content_bg": "#ffffff",
+      "color_footer_bg": "#222222",
+      "color_footer_text": "#ffffff",
+      "color_header_bg": "#222222",
+      "color_header_links": "#ffffff",
+      "color_hero_bg": "#d8232f",
+      "color_hero_text": "#fff",
+      "color_newsletter_input": "#303030",
+      "type_accent_family": "open_sans_condensed_n7",
+      "type_accent_spacing": false,
+      "type_accent_transform": true,
+      "type_base_family": "source_sans_pro_n4",
+      "type_base_size": "17px",
+      "type_nav_size": "14px",
+      "type_nav_spacing": true,
+      "type_nav_transform": true
+    }
+  }
+}
