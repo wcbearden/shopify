@@ -187,9 +187,9 @@
           "logo": "shopify:\/\/shop_images\/BEARDENPROJECT2.png",
           "logo_max_width": "350",
           "main_linklist": "main-menu",
-          "promo_bar_enable": true,
-          "promo_bar_text": "Please note:  Orders may see a slight delay during July-August due to medical leave.  All orders will still ship.  Thanks for your understanding and patience",
-          "promo_bar_link": ""
+          "promo_bar_enable": false,
+          "promo_bar_text": "",
+          "promo_bar_link": "shopify:\/\/policies\/terms-of-service"
         }
       },
       "collection-filters": {
