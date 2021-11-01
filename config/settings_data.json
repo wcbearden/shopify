@@ -60,53 +60,42 @@
           "1571371713916": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/we-make-scents_0236e1a6-478f-4b03-9142-6404cfcc83c9.png",
+              "image": "shopify:\/\/shop_images\/a-couple-strolls-down-a-fall-path.jpg",
               "image_position": "center center",
-              "title": "See and Smell",
-              "button_label": "View All",
-              "button_link": "shopify:\/\/collections\/soy-candle"
+              "title": "November's Prime",
+              "button_label": "Woodland Foliage",
+              "button_link": "shopify:\/\/products\/woodland-foliage"
             }
           },
           "placeholder-1": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/MAGNET-compile.png",
+              "image": "shopify:\/\/shop_images\/tiny-holiday-tree.jpg",
               "image_position": "center center",
-              "title": "Magnetic Moments",
-              "button_label": "For laughs, for tears, for growth",
-              "button_link": "shopify:\/\/collections\/magnet"
+              "title": "Naughty or Nice?",
+              "button_label": "Holiday fun for those with streak",
+              "button_link": "shopify:\/\/collections\/holiday-1"
             }
           },
           "placeholder-0": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/southerncharm-banner_e43118fa-e2c6-4c42-8ea2-f01ed35d1a71.jpg",
-              "image_position": "center center",
+              "image": "shopify:\/\/shop_images\/rustic-tea-service.jpg",
+              "image_position": "left center",
               "title": "Southern Charm",
-              "button_label": "What Will You Find Inside?",
+              "button_label": "discover southern warmth",
               "button_link": "shopify:\/\/collections\/southern-charm"
-            }
-          },
-          "1571370622495": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/blink-banner.png",
-              "image_position": "center center",
-              "title": "Coming Soon",
-              "button_label": "A moment.  A lifetime.  A story.",
-              "button_link": "shopify:\/\/pages\/about"
             }
           }
         },
         "block_order": [
           "1571371713916",
           "placeholder-1",
-          "placeholder-0",
-          "1571370622495"
+          "placeholder-0"
         ],
         "settings": {
           "hero_home_height": "adapt",
-          "hero_home_auto": true,
+          "hero_home_auto": false,
           "hero_home_auto_speed": 3
         }
       },
