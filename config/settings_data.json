@@ -21,7 +21,7 @@
     "type_nav_spacing": true,
     "type_nav_transform": true,
     "product_images_padding": false,
-    "product_vendor_enable": false,
+    "product_vendor_enable": true,
     "share_image": "shopify:\/\/shop_images\/LOGO_black_white_copy.png",
     "social_facebook_link": "facebook.com\/beardenproject",
     "social_twitter_link": "",
