@@ -63,7 +63,7 @@
               "image": "shopify:\/\/shop_images\/a-couple-strolls-down-a-fall-path.jpg",
               "image_position": "center center",
               "title": "November's Prime",
-              "button_label": "Woodland Foliage",
+              "button_label": "our choice fragrance for Fall",
               "button_link": "shopify:\/\/products\/woodland-foliage"
             }
           },
@@ -73,7 +73,7 @@
               "image": "shopify:\/\/shop_images\/tiny-holiday-tree.jpg",
               "image_position": "center center",
               "title": "Naughty or Nice?",
-              "button_label": "Holiday fun for those with streak",
+              "button_label": "Which list are you on?",
               "button_link": "shopify:\/\/collections\/holiday-1"
             }
           },
@@ -94,8 +94,8 @@
           "placeholder-0"
         ],
         "settings": {
-          "hero_home_height": "adapt",
-          "hero_home_auto": false,
+          "hero_home_height": "small",
+          "hero_home_auto": true,
           "hero_home_auto_speed": 3
         }
       },
