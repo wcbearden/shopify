@@ -21,7 +21,7 @@
     "type_nav_spacing": true,
     "type_nav_transform": true,
     "product_images_padding": false,
-    "product_vendor_enable": true,
+    "product_vendor_enable": false,
     "share_image": "shopify:\/\/shop_images\/crazyArtboard_1.png",
     "social_facebook_link": "facebook.com\/beardenproject",
     "social_twitter_link": "",
@@ -74,7 +74,7 @@
               "image_position": "center center",
               "title": "Naughty or Nice?",
               "button_label": "Which list are you on?",
-              "button_link": "shopify:\/\/collections\/holiday-1"
+              "button_link": "shopify:\/\/collections\/holiday-scents"
             }
           },
           "placeholder-0": {
@@ -166,8 +166,8 @@
       "featured-products": {
         "type": "featured-products",
         "settings": {
-          "collection": "holiday",
-          "rows": 2
+          "collection": "holiday-scents",
+          "rows": 1
         }
       },
       "header": {
@@ -206,6 +206,7 @@
       },
       "1571365391251": {
         "type": "image-content",
+        "disabled": true,
         "blocks": {
           "1571365391251-0": {
             "type": "image_block",
@@ -228,12 +229,20 @@
         ],
         "settings": {
         }
+      },
+      "16359998609ea94af8": {
+        "type": "featured-products",
+        "settings": {
+          "collection": "rofl",
+          "rows": 2
+        }
       }
     },
     "content_for_index": [
       "featured-collections",
       "featured-products",
-      "1571365391251"
+      "1571365391251",
+      "16359998609ea94af8"
     ]
   },
   "presets": {
