@@ -204,44 +204,17 @@
           "heading": "You may also like"
         }
       },
-      "1571365391251": {
-        "type": "image-content",
-        "disabled": true,
-        "blocks": {
-          "1571365391251-0": {
-            "type": "image_block",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/BLINK-Logo-MixedLeaves_copy.jpg"
-            }
-          },
-          "1571365391251-1": {
-            "type": "text_block",
-            "settings": {
-              "title": "Coming Soon",
-              "text": "<p>\"Life Under Glass\"&nbsp; Exhibits wonderous worlds that may or may not exist.<\/p>",
-              "align": "left"
-            }
-          }
-        },
-        "block_order": [
-          "1571365391251-0",
-          "1571365391251-1"
-        ],
-        "settings": {
-        }
-      },
       "16359998609ea94af8": {
         "type": "featured-products",
         "settings": {
           "collection": "rofl",
-          "rows": 2
+          "rows": 1
         }
       }
     },
     "content_for_index": [
       "featured-collections",
       "featured-products",
-      "1571365391251",
       "16359998609ea94af8"
     ]
   },
