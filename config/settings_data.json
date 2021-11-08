@@ -210,13 +210,27 @@
           "collection": "rofl",
           "rows": 1
         }
+      },
+      "featured-products-subsection": {
+        "type": "featured-products-subsection",
+        "settings": {
+          "collection": "holiday-1"
+        }
       }
     },
     "content_for_index": [
       "featured-collections",
       "featured-products",
       "16359998609ea94af8"
-    ]
+    ],
+    "blocks": {
+      "12927039508388447060": {
+        "type": "shopify:\/\/apps\/cozy-antitheft\/blocks\/Cozy_Antitheft_Script_1.0.0\/39dc4a5c-91ab-47a6-8307-32bae6f45721",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Snowboards": {
