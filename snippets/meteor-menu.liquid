@@ -1,7 +1,7 @@
 {% comment %}
   ---
   Documentation: https://meteor.heliumdev.com/help
-  Version: 4.3.2
+  Version: 4.5.1
   The following snippet serves multiple utility functions for the Meteor Menu
   application by Helium.
   YOU SHOULD NOT BE EDITING THIS FILE.
@@ -61,7 +61,7 @@
     self.fetch||(self.fetch=function(e,n){return n=n||{},new Promise(function(t,s){var r=new XMLHttpRequest,o=[],u=[],i={},a=function(){return{ok:2==(r.status/100|0),statusText:r.statusText,status:r.status,url:r.responseURL,text:function(){return Promise.resolve(r.responseText)},json:function(){return Promise.resolve(JSON.parse(r.responseText))},blob:function(){return Promise.resolve(new Blob([r.response]))},clone:a,headers:{keys:function(){return o},entries:function(){return u},get:function(e){return i[e.toLowerCase()]},has:function(e){return e.toLowerCase()in i}}}};for(var c in r.open(n.method||"get",e,!0),r.onload=function(){r.getAllResponseHeaders().replace(/^(.*?):[^\S\n]*([\s\S]*?)$/gm,function(e,n,t){o.push(n=n.toLowerCase()),u.push([n,t]),i[n]=i[n]?i[n]+","+t:t}),t(a())},r.onerror=s,r.withCredentials="include"==n.credentials,n.headers)r.setRequestHeader(c,n.headers[c]);r.send(n.body||null)})});
 
   
-    MeteorMenu.loadData=function(){function e(){return new Promise(function(e){var t=document.createElement("link");t.rel="stylesheet",t.href="{{ 'meteor-menu.css' | asset_url }}",t.onload=function(){e()},document.head.appendChild(t)})}function t(){window.performance&&1==window.performance.navigation.type?sessionStorage.removeItem(i):window.performance||sessionStorage.removeItem(i)}function n(){return t(),new Promise(function(e,t){function n(t){return MeteorMenu.data=t,e()}var s=r();if(s)return n(s);fetch(a,{credentials:"include"}).then(function(e){return e.text()}).then(function(e){e=e.replace(/<!--.+-->/g,""),o(e=JSON.parse(e)),sessionStorage.setItem(i,JSON.stringify(e)),n(e)})["catch"](function(e){t(e)})})}function r(){var e=sessionStorage.getItem(i);if(e)try{return JSON.parse(e)}catch(t){console.warn("Meteor Mega Menus: Malformed cached menu data, expected a JSON string but instead got:",e),console.warn("If you are seeing this error, please get in touch with us at support@heliumdev.com"),sessionStorage.removeItem(i)}}function o(e){var t=[],n={linklists:function(e){if(!(e instanceof Object))return"linklists must be an Object"}};for(var r in n){var o=e[r],a=n[r](o);a&&t.push({key:r,error:a,value:o})}if(t.length>0)throw console.error("Meteor Mega Menus: Invalid keys detected in menu data",t),new Error("Malformed menu data")}var a="/products?view=meteor&timestamp="+Date.now(),i="meteor:menu_data",s=[e(),n()];Promise.all(s).then(function(){MeteorMenu.loaded=!0,MeteorMenu.dataReady&&MeteorMenu.dataReady()})["catch"](function(e){throw console.error("Meteor Mega Menus: Encountered an error while attempting to fetchMenuData from '"+a+"'"),new Error(e)})},MeteorMenu.loadData();
+    MeteorMenu.loadData=function(){function e(){return new Promise(function(e){var t=document.createElement("link");t.rel="stylesheet",t.href="{{ 'meteor-menu.css' | asset_url }}",t.onload=function(){e()},document.head.appendChild(t)})}function t(){window.performance&&1==window.performance.navigation.type?sessionStorage.removeItem(i):window.performance||sessionStorage.removeItem(i)}function n(){return t(),new Promise(function(e,t){function n(t){return MeteorMenu.data=t,e()}var s=r();if(s)return n(s);fetch(a,{credentials:"include"}).then(function(e){return e.text()}).then(function(e){const t=document.createElement("html");t.innerHTML=e;const r=t.querySelector("script#meteor-menu-data");if(!r)throw new Error("[Meteor Mega Menus] Could not find script#meteor-menu-data in async menu data endpoint");const a=JSON.parse(r.textContent);o(a),sessionStorage.setItem(i,JSON.stringify(a)),n(a)})["catch"](function(e){t(e)})})}function r(){var e=sessionStorage.getItem(i);if(e)try{return JSON.parse(e)}catch(t){console.warn("Meteor Mega Menus: Malformed cached menu data, expected a JSON string but instead got:",e),console.warn("If you are seeing this error, please get in touch with us at support@heliumdev.com"),sessionStorage.removeItem(i)}}function o(e){var t=[],n={linklists:function(e){if(!(e instanceof Object))return"linklists must be an Object"}};for(var r in n){var o=e[r],a=n[r](o);a&&t.push({key:r,error:a,value:o})}if(t.length>0)throw console.error("Meteor Mega Menus: Invalid keys detected in menu data",t),new Error("Malformed menu data")}var a="/products?view=meteor&timestamp="+Date.now(),i="meteor:menu_data",s=[e(),n()];Promise.all(s).then(function(){MeteorMenu.loaded=!0,MeteorMenu.dataReady&&MeteorMenu.dataReady()})["catch"](function(e){throw console.error("Meteor Mega Menus: Encountered an error while attempting to fetchMenuData from '"+a+"'"),new Error(e)})},MeteorMenu.loadData();
   
 
   </script>
@@ -74,9 +74,9 @@
     ---
   {% endcomment %}
   {
-    "version": "4.3.2",
+    "version": "4.5.1",
     "base_url": "https://meteor.heliumdev.com",
-    "settings": {"app_proxy":"apps/meteor","z_index":9999,"mobile_breakpoint":"","disable_at_width":"","vertical_offset":0,"mobile_vertical_offset":0,"css":"","queries":"","async_load":"true","layout_liquid":"theme.liquid"},
+    "settings": {"app_proxy":"apps/meteor","z_index":9999,"mobile_breakpoint":"","disable_at_width":"","vertical_offset":0,"mobile_vertical_offset":0,"css":"","queries":"","async_load":"true","layout_liquid":"theme.liquid","external_links_in_new_tab":"false"},
     "theme": {
       "name": "Venture",
       "version": "9.7.3"
@@ -91,16 +91,16 @@
     "menus":
     [
       {
-        "id": "kXsNKd",
-        "title": "Shop",
+        "id": "11sJem",
+        "title": "holiday",
         "list_handle": "main-menu",
-        "object_path": "/pages/about",
-        "sub_list_handle": "main-menu",
+        "object_path": "/collections/holiday-1",
+        "sub_list_handle": "",
         "template": "solar",
-        "object_id": "43656314960",
-        "settings": {"size":"220px","action":"hover","animation":"none","font_size":"0.95em","color_text":"30,30,30,1","color_hover":"0,185,215,1","color_background":"255,255,255,1","color_hover_text":"255,255,255,1","color_mobile_text":"240,240,240,1","stack_mobile_links":"false","color_mobile_background":"30,30,30,1"},
-        "handle": "shop",
-        "manual_attach": true
+        "object_id": "281173852340",
+        "settings": {"size":"220px","action":"hover","animation":"none","font_size":"0.95em","color_text":"30,30,30,1","color_hover":"0,185,215,1","font_weight":"normal","color_background":"255,255,255,1","color_hover_text":"255,255,255,1","color_mobile_text":"240,240,240,1","delay_menu_opening":"false","menu_opening_delay":"200ms","stack_mobile_links":"false","color_mobile_background":"30,30,30,1"},
+        "handle": null,
+        "manual_attach": false
       }
     ]
   }

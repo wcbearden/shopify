@@ -76,7 +76,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   {% include 'meteor-menu', load: 'head' %}
   {% include 'buddha-megamenu' %}
   {{ content_for_header }}
-{% include 'shoppable_instagram_init' %}</head>
+{% include 'shoppable_instagram_init' %}  {% include 'qikify-contactform' %}
+</head>
 
 <body class="template-{{ request.page_type | handle }}" >
 <!-- Google Tag Manager (noscript) -->
