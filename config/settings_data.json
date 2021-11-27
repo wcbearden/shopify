@@ -174,7 +174,7 @@
         "type": "header",
         "settings": {
           "logo": "shopify:\/\/shop_images\/BEARDENPROJECT2.png",
-          "logo_max_width": "350",
+          "logo_max_width": "300",
           "main_linklist": "main-menu",
           "promo_bar_enable": false,
           "promo_bar_text": "",
