@@ -26,7 +26,7 @@
     "social_facebook_link": "facebook.com\/beardenproject",
     "social_twitter_link": "",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
+    "social_instagram_link": "@beardendesigns",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
     "social_youtube_link": "",
@@ -34,7 +34,7 @@
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": false,
-    "favicon": "shopify:\/\/shop_images\/crazyArtboard_1.png",
+    "favicon": "shopify:\/\/shop_images\/rook_outline_crown.png",
     "checkout_header_image": "shopify:\/\/shop_images\/brindleboard-01.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/crazyArtboard_1.png",
     "checkout_logo_position": "left",
@@ -89,6 +89,7 @@
           },
           "11fa7a86-0d88-481f-9957-c76743e140e3": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/young-man-fills-a-box-with-packing.jpg",
               "image_position": "center center",
@@ -184,11 +185,11 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/BEARDENPROJECT2.png",
-          "logo_max_width": "300",
+          "logo": "shopify:\/\/shop_images\/rook_outline_crown.png",
+          "logo_max_width": "200",
           "main_linklist": "main-menu",
           "promo_bar_enable": false,
-          "promo_bar_text": "",
+          "promo_bar_text": "Bearden Project is now Brindle Rook.  New name but same great stuff!",
           "promo_bar_link": "shopify:\/\/policies\/terms-of-service"
         }
       },
