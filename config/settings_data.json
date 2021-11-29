@@ -60,11 +60,11 @@
           "1571371713916": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/a-couple-strolls-down-a-fall-path.jpg",
+              "image": "shopify:\/\/shop_images\/winter-woods-with-wild-grass.jpg",
               "image_position": "center center",
-              "title": "November's Prime",
-              "button_label": "our choice fragrance for Fall",
-              "button_link": "shopify:\/\/products\/woodland-foliage"
+              "title": "December",
+              "button_label": "Our best and brightest for the coldest",
+              "button_link": "shopify:\/\/products\/winter-wonderland"
             }
           },
           "placeholder-1": {
@@ -86,12 +86,23 @@
               "button_label": "discover southern warmth",
               "button_link": "shopify:\/\/collections\/southern-charm"
             }
+          },
+          "11fa7a86-0d88-481f-9957-c76743e140e3": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/young-man-fills-a-box-with-packing.jpg",
+              "image_position": "center center",
+              "title": "Hey, get a brindle box",
+              "button_label": "Choose Your Size",
+              "button_link": "shopify:\/\/products\/brindle-box"
+            }
           }
         },
         "block_order": [
           "1571371713916",
           "placeholder-1",
-          "placeholder-0"
+          "placeholder-0",
+          "11fa7a86-0d88-481f-9957-c76743e140e3"
         ],
         "settings": {
           "hero_home_height": "small",
