@@ -246,13 +246,26 @@
         ],
         "settings": {
         }
+      },
+      "1638511780665e9ac3": {
+        "type": "video",
+        "settings": {
+          "button_label": "Order Now",
+          "video_url": "https:\/\/youtu.be\/88xWNzc_Yik",
+          "cover_image_position": "center center",
+          "cover_image_height": "short",
+          "show_overlay": true,
+          "overlay_color": "#000000",
+          "overlay_opacity": 45
+        }
       }
     },
     "content_for_index": [
       "16379708259b4c7f7a",
       "featured-collections",
       "featured-products",
-      "16359998609ea94af8"
+      "16359998609ea94af8",
+      "1638511780665e9ac3"
     ],
     "blocks": {
       "12927039508388447060": {
